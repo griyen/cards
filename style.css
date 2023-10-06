@@ -1,0 +1,89 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    background-color: rgb(53, 40, 49);
+   }
+   body{
+    font-family: arial;
+    
+   }
+   .main{
+   
+    margin: 1%;
+   }
+   
+   .card{
+        width: 30%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px rgb(242, 173, 218);
+        border-radius: 5px; 
+        margin: 1%;
+       }
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgb(201, 61, 128)
+      }
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+    }
+   .title{
+     text-align: center;
+     padding: 2px;
+    }
+   h1{
+     font-size: 18px;
+    }
+   .text{
+     padding: 1px;
+     text-align: center;
+     padding-top: 10px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     color: rgb(219, 147, 202);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: rgb(77, 64, 75);
+     border: 1px solid rgb(248, 246, 246);
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: rgba(252, 156, 238, 0.368);;
+     color: rgb(243, 242, 242);
+     transition: .5s;
+     cursor: pointer;
+   }
+   h1{
+    font-family: Calisto MT;
+    color: rgb(253, 150, 190);
+    
+   }
+   p{
+    color: rgb(235, 238, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   nav {
+
+    background: rgb(81, 58, 74);
+    height: 80px;
+    width: 100%;
+    
+    }
+    label.logo {
+        color: rgb(221 150 190);
+        font-size: 50px;
+        line-height: 90px;
+        padding: 10 100px;
+        font-weight: bold;
+        background: rgb(81, 58, 74);
+    }
+    
+        
+   
+
+
+   
